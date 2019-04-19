@@ -18,11 +18,19 @@
 <body>
 
     <header>
-        <a href="about.html">
-            <img alt="Home" src="images/SASCB_thin_outline_final.png"></a>
-        <a href="clothes.html"><h1><div class="underline">Clothes</div></h1></a>
-        <a href="jewelry.html"><h1>Jewelry</h1></a>
-        <a href="customers.html"><h1>Customers</h1></a>
+        <div class="navlink">
+            <a href="about.html">
+                <img alt="Home" src="images/SASCB_thin_outline_final.png"></a>
+            <a href="clothes.html"><h1><div class="underline">Clothes</div></h1></a>
+            <a href="jewelry.html"><h1>Jewelry</h1></a>
+            <a href="customers.html"><h1>Customers</h1></a>
+        </div>
+        <form  class="cart" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+            <input type="image" src="https://i.imgur.com/IiUD5hc.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 140px; height: 40px;">
+            <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
     </header>
 
     <br>
@@ -34,7 +42,7 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Black Ladder Top <br> $23</h3>
+                <h1 class="title">Black Ladder Top <br> $23</h1>
                 <p class="description">Super popular, this shirt is gorgeous! Edgy and comfortable, it's perfect for any occasion. Fits true to size. <br><br> 94% rayon, 6% spandex </p>                   
                 <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                     <input type="hidden" name="cmd" value="_s-xclick">
@@ -60,8 +68,21 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Black Sequin <br> $22 </h3>
+                <h1 class="title">Black Sequin Sweater<br> $22 </h1>
                 <p class="description">Soft and lightweight, perfect for heading into spring. These sparkly shoulders take this to a whole new level. <br><br> 65% cotton, 35% polyester</p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="JM94YC6JSV6Z2">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png//" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -72,8 +93,21 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Polka Dot Raglan Tee <br> $26 </h3>
+                <h1 class="title">Polka Dot Raglan Tee <br> $26 </h1>
                 <p class="description">Cheetah, polka dots and sequins?! Does it get any better? Super comfy, this shirt is made of high quality soft material and is the perfect longer length. <br><br> 94% polyester, 6% spandex</p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PD69BQ5X4AKTA">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -85,8 +119,21 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Black and Floral Baseball Tee <br> $23</h3>
+                <h1 class="title">Black and Floral Baseball Tee <br> $23</h1>
                 <p class="description">This is made from a nice lightweight fabric, perfect for spring! Not only is the black fabric on the torso a beautiful contract to the floral, it's also very slimming. Runs true to size, but is a slim fit. If you are in between sizes or prefer a loose fit, make sure to size up. <br><br> 94% rayon, 6% spandex</p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="JEG4UFS3M2474">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -98,8 +145,21 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Knotted Stripe Shirt with heart elbows <br> $25</h3>
+                <h1 class="title">Knotted Stripe Shirt with heart elbows <br> $25</h1>
                 <p class="description">The material is soft and comfortable with the perfect thickness. Three quarter sleeve, with plaid heart elbows! How cute is that?! <br><br> 95% rayon, 5% spandex</p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="DFJKBPDUDQP8A">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -111,8 +171,21 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Magenta Ruffle Shirt <br> $24 </h3>
+                <h1 class="title">Magenta Ruffle Shirt <br> $24 </h1>
                 <p class="description">Flowy and loose fitting, this tee is just adorable. Light and soft, the small added details of the ruffle at the bottom and the sleeves really do add a lot of personality. <br><br> 95% rayon, 5% spandex </p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="Y4EQJZQN6J6M8">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -123,8 +196,21 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Marsala Ladder Top <br> $22 </h3>
+                <h1 class="title">Marsala Ladder Top <br> $22 </h1>
                 <p class="description">Oh, so comfy! This is extra adorable with the ladder sleeves and slimming cut. And let's be honest, the color is perfect for this spring season! <br><br> 94% rayon, 6% spandex </p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="NDCLED5XVXWQS">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -135,8 +221,21 @@
             
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Metallic Gray Shirt with Butterfly Sleeves <br> $18 </h3>
+                <h1 class="title">Metallic Gray Shirt with Butterfly Sleeves <br> $18 </h1>
                 <p class="description">Fabric is lightweight and beautiful. The metallic threading adds a lot of sparkle to this outfit. <br><br> 96% polyester, 4% spandex </p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="CNTFQJ6BGAG3J">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -148,8 +247,22 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Navy Polka Dot Raglan Tee <br> $28 </h3>
+                <h1 class="title">Navy Polka Dot Raglan Tee <br> $28 </h1>
                 <p class="description">Super soft and comfy, this shirt is made in the US and the quality is fantastic. <br><br> 92% polyester, 8% spandex </p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="UKC4QXBADEH6W">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -161,8 +274,21 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Navy Sweater with necklace <br> $25 </h3>
+                <h1 class="title">Navy Sweater with necklace <br> $25 </h1>
                 <p class="description">We absolutely love the flowy fit of this shirt and it's banded waistline. It hugs all the right places. Super comfy and it even comes with the pearl dangle necklace in the photo! <br><br> 70% polyester, 6% rayon, 4% spandex</p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="AASY6NVKDQKXC">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -174,8 +300,21 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Pink Floral Flutter Sleeve Tee <br> $22</h3>
+                <h1 class="title">Pink Floral Flutter Sleeve Tee <br> $22</h1>
                 <p class="description">This material is soft and flowy, and the black and pink contract each other beautifully. This would be perfect with jeans or a pair of black leggigns. Thanks to the longer length in the back. Runs true to size. <br><br> 95% rayon, 5% spandex</p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PLHM993ZQRHDG">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -187,8 +326,21 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Plum Twist Knot Top <br> $22</h3>
+                <h1 class="title">Plum Twist Knot Top <br> $22</h1>
                 <p class="description">This basic top with a "twist" is just to die for. The perfect plum color and the simplistic style make this top accomodating to anyone's style, dressed up or down! Runs true to size. <br><br> 95% rayon, 5% spandex</p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="XVP7QBAEQ6SFS">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -200,8 +352,21 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Polka Dot and Floral Tee with knotted sleeves <br> $22</h3>
+                <h1 class="title">Polka Dot and Floral Tee with Knotted Sleeves <br> $22</h1>
                 <p class="description">Fun and flirty, this material feels like butter! The sleeves on the shirt tie to close the opening, a small but totally adorable detail. <br><br> 95% polyester, 5% spandex</p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="WA36PXWZNAKAQ">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -213,8 +378,21 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Royal Blue Dolman Top <br> $22 </h3>
+                <h1 class="title">Royal Blue Dolman Top <br> $22 </h1>
                 <p class="description">This vibrant royal blue is sure to pop against any skin tone. It's perfectly bright and cheery. Lightweight and soft, with dolman sleeves and ruching detail at the waist. This does run a little small, if you're in between sizes or prefere a looser fit, we suggest sizing up. <br><br> 94% rayon, 6% spandex </p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="V79HKVF85S6AJ">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -226,8 +404,21 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Rainbow Sequin Pocket Tee <br> $19 </h3>
+                <h1 class="title">Rainbow Sequin Pocket Tee <br> $19 </h1>
                 <p class="description">This amazing shirt has the cutest sequined pocket that adds that perfect eye catching detail. This shirt is loose fitting, if you prefer form fitting, we suggest going down a size. <br><br> 95% rayon, 5% spandex </p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="VBDXKSMM562SW">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -240,8 +431,21 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Taupe and Rosegold Sweater <br> $30</h3>
+                <h1 class="title">Taupe and Rosegold Sweater <br> $30</h1>
                 <p class="description">Sparkly and feminine, this sweater is lightweight and perfect for any season. <br><br> 94% polyester, 6% spandex</p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="ZCLT5XYFH9M7N">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -252,8 +456,21 @@
             
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Teal Knotted Tee with Sequin Pocket <br> $23</h3>
+                <h1 class="title">Teal Knotted Tee with Sequin Pocket <br> $23</h1>
                 <p class="description">This vibrant teal tee is so comfortable and cute. The small sequin pocket really adds a lot of fun to this one. <br><br> 95% polyester, 6% spandex</p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="AS399YR8JVX58">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -265,8 +482,21 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Teal Tunic with Chevron Sleeves <br> $24</h3>
+                <h1 class="title">Teal Tunic with Chevron Sleeves <br> $24</h1>
                 <p class="description">Super soft tunic is perfect for pairing with leggings but can also be worn with jeans, since it's long in the front and back. Lightweight and breathable material. Fits true to size. <br><br> 95% rayon, 5% spandex</p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="KQ8TT8RXYWSXA">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -278,8 +508,21 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Black Cold Shoulder Top <br> $24</h3>
+                <h1 class="title">Black Cold Shoulder Top <br> $24</h1>
                 <p class="description">This is the perfect combination of cute and comfy. The nice flowy material is relaxed and flirty. The shoulder cut outs really add to the fun feel of this top. Long enough to be paired with your favorite leggings. True to size. <br><br> 95% rayon, 5% spandex</p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="6DSAUM7XNA9VN">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -290,8 +533,21 @@
             
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Black Floral Wrap Dress <br> $35</h3>
+                <h1 class="title">Black Floral Wrap Dress <br> $35</h1>
                 <p class="description">The material is soft and the fit is great! There's some stretch, but it's not clingy. This dress could be easily casual or dressed up. Plus, IT HAS POCKETS! <br><br> 95% polyester, 5% spandex</p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="JVBQKHVJCC478">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -303,8 +559,21 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Coral Knotted Tee with Gray Polka Dots <br> $22</h3>
+                <h1 class="title">Coral Knotted Tee with Gray Polka Dots <br> $22</h1>
                 <p class="description">This color is great for the spring season. The flutter sleeves and subtle polka dots give this shirt so much personality. Runs true to size, but size up if you'd prefer a loose fit. <br><br> 61% polyester, 33% rayon, 6% spandex</p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="5GZCLJY3XRP98">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -315,8 +584,21 @@
             
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Black Wrap Ruffle Dress <br> $27</h3>
+                <h1 class="title">Black Wrap Ruffle Dress <br> $27</h1>
                 <p class="description">This color is great for the spring season. The flutter sleeves and subtle polka dots give this shirt so much personality. Runs true to size, but size up if you'd prefer a loose fit. <br><br> 61% polyester, 33% rayon, 6% spandex</p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="2Q5XH2YJT5KEU">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -327,8 +609,21 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Floral Keyhole Peplum Top<br> $24</h3>
+                <h1 class="title">Floral Keyhole Peplum Top<br> $24</h1>
                 <p class="description">The floral print is beautiful and the peplum style accentuates the bosom while keeping you covered. It's also great for concealing the tummy. There's also a keyhole cutout on each of the arms and comes with the necklace seen in the photos. This top does run a bit small in the bust, so we suggest sizing up if you have a large bust<br><br>94% rayon, 6% spandex</p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="H7J75K7D9VF3G">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -340,8 +635,21 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Gray Cheetah Baseball Tee<br> $24</h3>
+                <h1 class="title">Gray Cheetah Baseball Tee<br> $24</h1>
                 <p class="description">The tee is so chic and the black fabric in the torso is not only a beautiful contrast, but it's also super slimming. This runs true to size, but is slim fitting. If you prefer a looser fit, consider sizing up.<br><br>95% rayon, 5% spandex</p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="LGJNSSVPX4YN6">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -353,8 +661,21 @@
 
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Ombre Rainbow Striped Tunic<br> $24 </h3>
+                <h1 class="title">Ombre Rainbow Striped Tunic<br> $24 </h1>
                 <p class="description">If this beautiful tunic doesn't yell spring, I don't know what does! The ombre striping is so cheerful and pretty. Long in both front and back, perfect match for a pair of leggings. This runs a little small, so if you prefer a looser fit, we recommend sizing up.<br><br>54% polyester, 46% cotton</p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PWKJE5W6FGZ5U">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -366,8 +687,21 @@
         
         <div class="clothes">
             <div class="text">
-                <h3 class="title">Charcoal Floral Dress with Pockets<br> $26 </h3>
+                <h1 class="title">Charcoal Floral Dress with Pockets<br> $26 </h1>
                 <p class="description">This delicate floral print is so beautifully paired with the charcoal background, not to mention the nice, light, soft fabric with some stretch, you are sure to feel comfortable.<br><br>65% polyester, 32% rayon, 3% spandex</p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="SCMN47FFLMTHL">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
             </div>
             <div class="slideshow">
                 <div class="pictures">
@@ -375,7 +709,61 @@
                     <img alt="charcoalfloral" class="mySlides" src="images/Charcoal Floral Dress/CharcoalFloral_Erin.jpeg">
                 </div>
             </div>
-        </div>   
+        </div>
+        
+        <div class="clothes">
+            <div class="text">
+                <h1 class="title">Yellow Floral Maxi Dress <br> $30 </h1>
+                <p class="description"> This maxi dress is so comfy and it has pockets! The floral and pastel mix is just beautiful for the coming spring and summer months. So easily dressed up or down! <br><br> 95% polyester, 5% spandex </p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="9WN33WJ6QKG5N">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
+            </div>
+            <div class="slideshow">
+                <div class="pictures">
+                    <img alt="" class="mySlides" src="images/Yellow Floral Maxi Dress/YellowMaxi_Carrie.jpeg">
+                    <img alt="" class="mySlides" src="images/Yellow Floral Maxi Dress/YellowMaxi_Erin.jpeg">
+                    <img alt="" class="mySlides" src="images/Yellow Floral Maxi Dress/YellowMaxi_Nikki.jpeg">
+                </div>
+            </div>
+        </div> 
+
+        <div class="clothes">
+            <div class="text">
+                <h1 class="title"> Distressed V-Neck with Lace Underlay <br> $26 </h1>
+                <p class="description"> This shirt is badass, sexy and cute all in one. The charcoal paired with the white lace is just beautiful. <br><br> 97% rayon, 3% spandex </p>
+                <form style="display: inline-block; padding-top: 10px;" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="4AZQGCEDYT4NU">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="1x">1x </option>
+                        <option value="2x">2x </option>
+                        <option value="3x">3x </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://i.imgur.com/oLQrSTR.png" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 60px; height: 110px; padding-top: 25px;">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                    
+            </div>
+            <div class="slideshow">
+                <div class="pictures">
+                    <img alt="" class="mySlides" src="images/Distressed V-Neck with Lace Underlay/DistressedV_Erin.jpeg">
+                </div>
+            </div>
+        </div>         
+
+
         <script>       
         </script>
 
