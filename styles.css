@@ -1,0 +1,167 @@
+body {
+  background-color: #f9bee0;
+  font-family: Bernard MT Condensed, serif;
+  font-size: 15px;
+  text-align: center;
+}
+body header {
+  display: inline-block;
+  font-family: Brush Script MT, cursive;
+  border-bottom: #000000 solid 3px;
+  text-align: center;
+}
+body header .navlink {
+  display: inline-flex;
+}
+body header .cart {
+  padding-top: 15px;
+  border-top: 3px solid black;
+}
+body header .underline {
+  border-bottom: solid 2px black;
+  padding-bottom: 1%;
+}
+body header a {
+  text-decoration: none;
+  color: #000000;
+  padding: 10px;
+}
+body header a:visited {
+  color: #000000;
+}
+body header a:hover {
+  color: #02fffe;
+  -webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-color: black;
+}
+body header a:active {
+  color: #000000;
+}
+body .aboutPictures img {
+  height: 240px;
+  border: #000000 solid 3px;
+}
+body .intro {
+  width: 900px;
+  display: inline-block;
+}
+body .shipping {
+  padding-right: 15px;
+  padding-left: 15px;
+  text-decoration: none;
+  color: #e62786;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #000000;
+  font-size: 30px;
+}
+body .shopinfo {
+  display: inline-flex;
+  border-top: black 3px solid;
+  padding: 10px;
+  font-size: 20px;
+}
+body .shopinfo a {
+  padding-right: 15px;
+  padding-left: 15px;
+  text-decoration: none;
+  color: #e62786;
+  -webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-color: #000000;
+}
+body .shopinfo a:hover {
+  color: #02fffe;
+  -webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-color: #000000;
+}
+body .sizingReference {
+  display: inline-flex;
+  padding-top: 10px;
+  padding-bottom: 125px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+body .sizingReference p {
+  width: 50%;
+}
+body .shoppingstuff {
+  display: inline;
+  align-content: center;
+}
+body .shoppingstuff .clothes {
+  width: 90%;
+  display: inline-flex;
+}
+body .shoppingstuff .clothes .text {
+  padding-right: 45px;
+  padding-left: 30px;
+  text-align: center;
+  width: 40%;
+  position: relative;
+  top: 50%;
+}
+body .shoppingstuff .clothes .text .title {
+  color: #02fffe;
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: #000000;
+}
+body .shoppingstuff .clothes .slideshow {
+  padding-bottom: 100px;
+  width: 50%;
+}
+body .shoppingstuff .clothes .slideshow .pictures .mySlides {
+  border: #000000 3px solid;
+}
+body .jewelrystuff {
+  display: inline;
+  text-align: center;
+}
+body .jewelrystuff .jewelry {
+  width: 90%;
+  display: inline-flex;
+}
+body .jewelrystuff .jewelry .text {
+  padding-right: 45px;
+  padding-left: 30px;
+  text-align: center;
+  width: 40%;
+  position: relative;
+  top: 50%;
+}
+body .jewelrystuff .jewelry .text .title {
+  color: #e62786;
+  -webkit-text-stroke-width: 0.45px;
+  -webkit-text-stroke-color: #000000;
+}
+body .jewelrystuff .jewelry .slideshow {
+  padding-bottom: 15px;
+  width: 50%;
+}
+body .jewelrystuff .jewelry .slideshow .pictures .mySlides {
+  border: #000000 3px solid;
+}
+body footer {
+  text-align: center;
+  background-color: #f9bee0;
+  border-top: #000000 3px solid;
+  margin: 20px;
+}
+body footer .connect img {
+  height: 120px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+body footer p {
+  color: black;
+  font-size: 26px;
+  font-family: Brush Script MT, cursive;
+  margin: auto 0;
+  text-align: center;
+}
+body footer .endpage img {
+  display: inline;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+/*# sourceMappingURL=styles.css.map */
